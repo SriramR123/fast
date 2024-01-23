@@ -1,0 +1,85 @@
+Loading db file '/home/admin/synopsys/EDK/SAED_EDK32.28nm/SAED32_EDK/lib/stdcell_hvt/db_nldm/saed32hvt_ss0p95v125c.db'
+Information: Propagating switching activity (low effort zero delay simulation). (PWR-6)
+Warning: There is no defined clock in the design. (PWR-80)
+Warning: Design has unannotated primary inputs. (PWR-414)
+ 
+****************************************
+Report : power
+        -analysis_effort low
+Design : bit4_vedic
+Version: O-2018.06-SP3
+Date   : Fri Sep 22 09:28:48 2023
+****************************************
+
+
+Library(s) Used:
+
+    saed32hvt_ss0p95v125c (File: /home/admin/synopsys/EDK/SAED_EDK32.28nm/SAED32_EDK/lib/stdcell_hvt/db_nldm/saed32hvt_ss0p95v125c.db)
+
+
+Operating Conditions: ss0p95v125c   Library: saed32lvt_ss0p95v125c
+Wire Load Model Mode: enclosed
+
+Design        Wire Load Model            Library
+------------------------------------------------
+bit4_vedic             8000              saed32lvt_ss0p95v125c
+bit2_vedic_0           ForQA             saed32lvt_ss0p95v125c
+rca_0                  ForQA             saed32lvt_ss0p95v125c
+fastadder_0            ForQA             saed32lvt_ss0p95v125c
+bit2_vedic_1           ForQA             saed32lvt_ss0p95v125c
+bit2_vedic_2           ForQA             saed32lvt_ss0p95v125c
+bit2_vedic_3           ForQA             saed32lvt_ss0p95v125c
+fastadder_1            ForQA             saed32lvt_ss0p95v125c
+fastadder_2            ForQA             saed32lvt_ss0p95v125c
+fastadder_3            ForQA             saed32lvt_ss0p95v125c
+fastadder_4            ForQA             saed32lvt_ss0p95v125c
+fastadder_5            ForQA             saed32lvt_ss0p95v125c
+fastadder_6            ForQA             saed32lvt_ss0p95v125c
+fastadder_7            ForQA             saed32lvt_ss0p95v125c
+fastadder_8            ForQA             saed32lvt_ss0p95v125c
+fastadder_9            ForQA             saed32lvt_ss0p95v125c
+fastadder_10           ForQA             saed32lvt_ss0p95v125c
+fastadder_11           ForQA             saed32lvt_ss0p95v125c
+fastadder_12           ForQA             saed32lvt_ss0p95v125c
+fastadder_13           ForQA             saed32lvt_ss0p95v125c
+fastadder_14           ForQA             saed32lvt_ss0p95v125c
+fastadder_15           ForQA             saed32lvt_ss0p95v125c
+fastadder_16           ForQA             saed32lvt_ss0p95v125c
+fastadder_17           ForQA             saed32lvt_ss0p95v125c
+fastadder_18           ForQA             saed32lvt_ss0p95v125c
+fastadder_19           ForQA             saed32lvt_ss0p95v125c
+rca_1                  ForQA             saed32lvt_ss0p95v125c
+rca_2                  ForQA             saed32lvt_ss0p95v125c
+
+
+Global Operating Voltage = 0.95 
+Power-specific unit information :
+    Voltage Units = 1V
+    Capacitance Units = 1.000000ff
+    Time Units = 1ns
+    Dynamic Power Units = 1uW    (derived from V,C,T units)
+    Leakage Power Units = 1pW
+
+
+  Cell Internal Power  =  17.6678 uW   (74%)
+  Net Switching Power  =   6.3462 uW   (26%)
+                         ---------
+Total Dynamic Power    =  24.0140 uW  (100%)
+
+Cell Leakage Power     =   2.6546 uW
+
+Information: report_power power group summary does not include estimated clock tree power. (PWR-789)
+
+                 Internal         Switching           Leakage            Total
+Power Group      Power            Power               Power              Power   (   %    )  Attrs
+--------------------------------------------------------------------------------------------------
+io_pad             0.0000            0.0000            0.0000            0.0000  (   0.00%)
+memory             0.0000            0.0000            0.0000            0.0000  (   0.00%)
+black_box          0.0000            0.0000            0.0000            0.0000  (   0.00%)
+clock_network      0.0000            0.0000            0.0000            0.0000  (   0.00%)
+register           0.0000            0.0000            0.0000            0.0000  (   0.00%)
+sequential         0.0000            0.0000            0.0000            0.0000  (   0.00%)
+combinational     17.6678            6.3462        2.6546e+06           26.6686  ( 100.00%)
+--------------------------------------------------------------------------------------------------
+Total             17.6678 uW         6.3462 uW     2.6546e+06 pW        26.6686 uW
+1

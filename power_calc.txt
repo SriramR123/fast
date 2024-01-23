@@ -1,0 +1,129 @@
+.power VV1
+.power VV2
+.power VV3
+.power VV4
+.power VV5
+.power VV6
+.power VV7
+.power VV8
+.measure tran tdelay trig v(in) val=2.5 rise=2 targ v(out) val=2.5 fall=2
+
+
+Power Results fast adder
+
+VV1 from time 0 to 8e-07
+Average power consumed -> 3.780195e-07 watts
+Max power 2.933552e-04 at time 3.06077e-09 
+Min power 0.000000e+00 at time 0 
+
+VV2 from time 0 to 8e-07
+Average power consumed -> 2.131437e-08 watts
+Max power 3.088024e-04 at time 3.06077e-09 
+Min power 0.000000e+00 at time 0 
+
+VV3 from time 0 to 8e-07
+Average power consumed -> -8.515330e-08 watts
+Max power 2.978854e-04 at time 3.06077e-09 
+Min power 0.000000e+00 at time 0 
+
+VV4 from time 0 to 8e-07
+Average power consumed -> -7.553962e-08 watts
+Max power 3.088043e-04 at time 3.06077e-09 
+Min power 0.000000e+00 at time 0 
+
+VV5 from time 0 to 8e-07
+Average power consumed -> 5.101537e-07 watts
+Max power 1.787549e-04 at time 3.06077e-09 
+Min power 0.000000e+00 at time 0 
+
+VV6 from time 0 to 8e-07
+Average power consumed -> 1.925255e-07 watts
+Max power 1.872357e-04 at time 3.06077e-09 
+Min power 0.000000e+00 at time 0 
+
+VV7 from time 0 to 8e-07
+Average power consumed -> 5.338655e-08 watts
+Max power 1.845471e-04 at time 3.06077e-09 
+Min power 0.000000e+00 at time 0 
+
+VV8 from time 0 to 8e-07
+Average power consumed -> 2.687578e-08 watts
+Max power 1.872359e-04 at time 3.06077e-09 
+Min power 0.000000e+00 at time 0 
+
+
+delay:
+Measurement result summary a0 s0
+   tdelay          =   49.8768n 
+
+Measurement result summary a0 s1
+tdelay          =  151.0059n  
+
+Measurement result summary a1 s(0-7)
+tdelay          =  -50.1232n 
+
+
+Measurement result summary a2 s(0-7)
+tdelay          = -250.1232n 
+
+
+Measurement result summary a3 s(0-7)
+tdelay          =       not found
+
+
+Measurement result summary b0 s(0-7)
+tdelay          =   49.8768n     
+
+Measurement result summary b1 s(0-7)
+ tdelay          =  -50.1232n   
+
+Measurement result summary b2 s(0-7)
+tdelay          = -250.1232n
+
+Measurement result summary b3 s(0-7)
+tdelay          =       not found
+
+
+normal full adder:
+Power Results
+
+VV1 from time 0 to 8e-07
+Average power consumed -> 4.101326e-07 watts
+Max power 3.079854e-04 at time 3.09027e-09 
+Min power 0.000000e+00 at time 0 
+
+VV2 from time 0 to 8e-07
+Average power consumed -> 5.010296e-08 watts
+Max power 3.162563e-04 at time 3.09027e-09 
+Min power 0.000000e+00 at time 0 
+
+VV3 from time 0 to 8e-07
+Average power consumed -> -4.750855e-08 watts
+Max power 3.168172e-04 at time 3.09027e-09 
+Min power 0.000000e+00 at time 0 
+
+VV4 from time 0 to 8e-07
+Average power consumed -> -5.817734e-08 watts
+Max power 3.162563e-04 at time 3.09027e-09 
+Min power 0.000000e+00 at time 0 
+
+VV5 from time 0 to 8e-07
+Average power consumed -> 5.375319e-07 watts
+Max power 1.857742e-04 at time 3.09027e-09 
+Min power 0.000000e+00 at time 0 
+
+VV6 from time 0 to 8e-07
+Average power consumed -> 2.137781e-07 watts
+Max power 1.892330e-04 at time 3.09027e-09 
+Min power 0.000000e+00 at time 0 
+
+VV7 from time 0 to 8e-07
+Average power consumed -> 7.828925e-08 watts
+Max power 1.890225e-04 at time 3.09027e-09 
+Min power 0.000000e+00 at time 0 
+
+VV8 from time 0 to 8e-07
+Average power consumed -> 2.807697e-08 watts
+Max power 1.892330e-04 at time 3.09027e-09 
+Min power 0.000000e+00 at time 0
+
