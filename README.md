@@ -62,7 +62,7 @@ If you wish to contribute to this project, please follow the guidelines outlined
 
 ## License
 
-This project is licensed under the [MIT License](LICENSE), granting you the freedom to use, modify, and distribute the code as per the terms specified.
+
 
 Feel free to reach out with any questions or concerns. Happy coding!
 
